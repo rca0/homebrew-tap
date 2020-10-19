@@ -7,11 +7,11 @@ class VaultSync < Formula
 
   if OS.mac?
     url "https://github.com/rca0/vault-sync/releases/download/v1.0.0/vault-sync_1.0.0_darwin_amd64.tar.gz"
-    sha256 "eb4485cb27085a43fa6aee67942b826d3743e166d5"
+    sha256 "dbaf53aaf61aa9524a839b8cda52efdc44926ac62f0f1332f2bdddcc29e41a7f"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/rca0/vault-sync/releases/download/v1.0.1/vault-sync_1.0.0_linux_amd64.tar.gz"
-      sha256 "62e069db3067fdf2fa9d635b8808f6b6ae2933a721ef28ed7469da"
+      sha256 "f60235fb6502a76c1affb07dc692923a792d9e79a7db6e72dfd162b54e2b30c3"
     end
   end
 
